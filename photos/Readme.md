@@ -1,0 +1,1 @@
+Creating an interactive photo gallery using jquery plugins and lightbox with an active search bar.
