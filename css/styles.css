@@ -1,0 +1,17 @@
+body {
+    padding: 30px;
+    padding-left: 8%;
+}
+
+
+.search-bar {
+    padding: 16px;
+    position: relative;
+    left: 38%;
+}
+
+.search-bar .input {
+    width: 200px;
+    height: 20px;
+
+}
