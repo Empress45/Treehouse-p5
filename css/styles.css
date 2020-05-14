@@ -8,6 +8,12 @@
 body {
     margin-bottom: 30px;
     margin-top: 40px;
+    margin: 0px;
+    max-width: 1249px;
+    justify-content: space-between;
+
+
+
 }
 
 /*========Layout for the Search Box=========*/
@@ -40,21 +46,33 @@ input[type="text"]::placeholder {
 
 /*=========Photo Gallery Layout=========*/
 
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .photo-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .photo-gallery img {
     padding: 25px;
 }
 
+
 /*========Photos of Lightbox========*/
 
 .lb-image .lb-caption {
     text-align: center;
+
 }
 
 /*========Media Queries========*/
@@ -74,5 +92,7 @@ input[type="text"]::placeholder {
 @media (min-width: 1024px) {
     input[type="text"] {
         width: 400px;
+        max-width: 1249px;
+        justify-content: center;
     }
 }
